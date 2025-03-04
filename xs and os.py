@@ -2,7 +2,7 @@
 #spaces= top left, top middle, top right, middle left,---
 #--- middle, middle right, bottom left, bottom middle,---
 #--- bottom right ?????????
-grid=('''_ |_ | _
+grid=('''_ | _ | _
 _ | _ | _
    |    |''')
 rules=print('''RULES!!:
@@ -20,4 +20,6 @@ lstdn=[6,7,8]
 numgrid='''0|1|2
 3|4|5
 6|7|8'''
-rnd1=input('player one, where will you place an x?:')
+rnd1=input( 'player1, where will you place an x?:')
+numgrid[rnd1]='x'
+print(numgrid)
